@@ -1,41 +1,60 @@
 {
-  "name": "ng2-localforage",
-  "version": "0.1.29",
-  "scripts": {
-    "lint": "tslint src/**/*.ts",
-    "test": "ngc && karma start",
-    "prepublish": "ngc",
-    "ngc": "ngc",
-    "typings": "typings"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Tixifni/ng2-localforage.git"
-  },
-  "author": {
-    "name": "Tixif",
-    "email": "tixifni@gmail.com"
-  },
-  "keywords": [
-    "angular",
-    "angular2"
+  "_args": [
+    [
+      "ng2-localforage@^0.1.2",
+      "C:\\Users\\xmari_000\\Sandbox\\av-test"
+    ]
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Tixifni/ng2-localforage.git/issues"
+  "_from": "ng2-localforage@>=0.1.2 <0.2.0",
+  "_id": "ng2-localforage@0.1.30",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ng2-localforage",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/ng2-localforage-0.1.30.tgz_1481754525838_0.3915884110610932"
   },
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
+  "_npmUser": {
+    "email": "tixifni@gmail.com",
+    "name": "tixif"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "ng2-localforage",
+    "raw": "ng2-localforage@^0.1.2",
+    "rawSpec": "^0.1.2",
+    "scope": null,
+    "spec": ">=0.1.2 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ng2-localforage/-/ng2-localforage-0.1.30.tgz",
+  "_shasum": "65bf06f4058a7ce2ee8b9942bd09e8c756bf2c5b",
+  "_shrinkwrap": null,
+  "_spec": "ng2-localforage@^0.1.2",
+  "_where": "C:\\Users\\xmari_000\\Sandbox\\av-test",
+  "author": {
+    "email": "tixifni@gmail.com",
+    "name": "Tixif"
+  },
+  "bugs": {
+    "url": "https://github.com/Tixifni/ng2-localforage/issues"
+  },
   "dependencies": {
     "localforage": "^1.4.2"
   },
+  "description": "## Installation",
   "devDependencies": {
     "@angular/common": "2.1.1",
     "@angular/compiler": "2.1.1",
     "@angular/compiler-cli": "2.1.1",
     "@angular/core": "2.1.1",
-    "@angular/platform-server": "2.1.1",
     "@angular/platform-browser": "2.1.1",
+    "@angular/platform-server": "2.1.1",
     "@types/localforage": "0.0.32",
     "codelyzer": "0.0.26",
     "rxjs": "5.0.0-beta.12",
@@ -44,7 +63,46 @@
     "typings": "^1.0.4",
     "zone.js": "0.6.26"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "65bf06f4058a7ce2ee8b9942bd09e8c756bf2c5b",
+    "tarball": "https://registry.npmjs.org/ng2-localforage/-/ng2-localforage-0.1.30.tgz"
+  },
   "engines": {
     "node": ">=0.8.0"
-  }
+  },
+  "gitHead": "4d434d1708647206798b1f2c7b69ef1795ddf310",
+  "homepage": "https://github.com/Tixifni/ng2-localforage#readme",
+  "keywords": [
+    "angular",
+    "angular2"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "maintainers": [
+    {
+      "email": "ejchavez88@gmail.com",
+      "name": "radyz88"
+    },
+    {
+      "email": "tixifni@gmail.com",
+      "name": "tixif"
+    }
+  ],
+  "name": "ng2-localforage",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tixifni/ng2-localforage.git"
+  },
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "ngc": "ngc",
+    "prepublish": "ngc",
+    "test": "ngc && karma start",
+    "typings": "typings"
+  },
+  "typings": "./dist/index.d.ts",
+  "version": "0.1.30"
 }
